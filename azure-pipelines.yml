@@ -31,16 +31,14 @@ steps:
 
 - script: 'echo "$(Build.DefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'Write build information to console'
-  inputs:
-    command: 'restore'
-    projects: '**/*.cproj'
+  workingDirectory: Tailspin.SpaceGame.Web/wwwroot
 
 - task: DotNetCoreClI@2
   displayName: 'Restore project dependencies'
   inputs:
     command: 'restore'
     projects: '**/*.cproj'
-    
+
 - task: DotNetCoreCLI@2
   displayName: 'Build the project target - Release'
   inputs:
