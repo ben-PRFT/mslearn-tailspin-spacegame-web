@@ -2,6 +2,10 @@ Automated Build Status:
 
 [![Build Status](https://dev.azure.com/benjaminlieberman/Space%20Game%20-%20Git%20Flow/_apis/build/status/mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/benjaminlieberman/Space%20Game%20-%20Git%20Flow/_build/latest?definitionId=6&branchName=master)
 
+Security Scan Status:
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ben-PRFT_mslearn-tailspin-spacegame-web&metric=alert_status)](https://sonarcloud.io/dashboard?id=ben-PRFT_mslearn-tailspin-spacegame-web)
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
